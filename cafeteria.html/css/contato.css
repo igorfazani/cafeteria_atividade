@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f0e8;
+    color: #3b2a22;
+}
+
+
+header {
+    background-color: #6b3e2b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+header h1 {
+    font-size: 36px;
+}
+
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+
+section {
+    background-color: white;
+    border: 1px solid #e6d6c8;
+    border-radius: 12px;
+    padding: 22px;
+    margin-bottom: 22px;
+}
+
+
+footer {
+    background-color: #3e251c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #3e251c;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+
+.menu a:hover {
+    color: #ffd49a;
+    text-decoration: underline;
+}
+
+
+.menu a:focus-visible {
+    outline: 3px solid #ffd49a;
+    outline-offset: 3px;
+}
+
+
+.menu .pagina-atual {
+    border-bottom: 2px solid #ffd49a;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+
+input, select, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #c6a792;
+    border-radius: 8px;
+
+
+}
+
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #d99143;
+}
+
+
+button {
+    background-color: #815031;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+button:hover {
+    background-color: #aa6c43;
+    transform: translateY(-2px);
+}
+
+
+button:active {
+    transform: translateY(1px);
+}
+
+
+button:focus-visible {
+    outline: 3px solid #d99143;
+    outline-offset: 3px;
+}
+
+
+.aviso-formulario {
+    color: #7ba729;
+    font-size: 14px;
+}
+
